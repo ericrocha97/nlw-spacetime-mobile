@@ -2,8 +2,8 @@ import 'dotenv/config'
 
 module.exports = {
   expo: {
-    name: 'mobile',
-    slug: 'mobile',
+    name: 'NLW Spacetime',
+    slug: 'nlw-spacetime',
     scheme: 'nlwspacetime',
     version: '1.0.0',
     extra: {
@@ -12,11 +12,11 @@ module.exports = {
     },
     orientation: 'portrait',
     icon: './assets/icon.png',
-    userInterfaceStyle: 'light',
+    userInterfaceStyle: 'dark',
     splash: {
       image: './assets/splash.png',
-      resizeMode: 'contain',
-      backgroundColor: '#ffffff',
+      resizeMode: 'cover',
+      backgroundColor: '#09090a',
     },
     assetBundlePatterns: ['**/*'],
     ios: {
@@ -25,11 +25,8 @@ module.exports = {
     android: {
       adaptiveIcon: {
         foregroundImage: './assets/adaptive-icon.png',
-        backgroundColor: '#ffffff',
+        backgroundColor: '#736494',
       },
-    },
-    web: {
-      favicon: './assets/favicon.png',
     },
   },
 }
